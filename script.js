@@ -172,16 +172,16 @@ function page6Animation(){
         scrollTrigger:{
             trigger:".div1 h4",
             scroller:"body",
-            start:"top 70%",
+            start:"top 40%",
             end:"top -100%",
             scrub:3
         }
     })
 }
-
-window.onload = function(){
-    loadingAnimation();
-}
+//
+// window.onload = function(){
+//     loadingAnimation();
+// }
 navAnimation();
 page2Animation();
 page3Animation();
